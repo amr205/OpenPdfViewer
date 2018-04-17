@@ -1,0 +1,11 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import control.OpenPdfViewer?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:controller="project.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <OpenPdfViewer AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0"  zoomType="WIDTH" zoomOptions="true" loadOptions="true"></OpenPdfViewer>
+</AnchorPane>

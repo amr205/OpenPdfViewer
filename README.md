@@ -15,7 +15,7 @@ Here is an example with the component embedded:
 
 # How to use it
 
-You could copy the code from the project or just download the library jar from [here](https://mega.nz/#!ta5VQT6T!8dQs318Q8xd0PzYLMqq-n9o_7G3ZIxHSMIRt0QyjCl4)
+You could copy the code from the project or just download the library jar from [here](https://mega.nz/#!ta5VQT6T!8dQs318Q8xd0PzYLMqq-n9o_7G3ZIxHSMIRt0QyjCl4) <--- Jar with all dependencies
 
 Then you can use it like a normal control in fxml
 

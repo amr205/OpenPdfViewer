@@ -1,6 +1,6 @@
 # OpenPdfViewer
 
-[![YourActionName Actions Status](https://github.com/amr205/OpenPdfViewer/workflows/Java CI with Maven/badge.svg)]https://github.com/amr205/OpenPdfViewer/actions)
+[![YourActionName Actions Status](https://github.com/amr205/OpenPdfViewer/workflows/MavenPipeline/badge.svg)]https://github.com/amr205/OpenPdfViewer/actions)
 
 This is a component for javafx that allows you to view PdfDocuments made usind the PdfBox library and FontAwesome
 

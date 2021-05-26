@@ -78,10 +78,10 @@ public class OpenPdfViewer extends BorderPane implements Initializable{
         zoomOptions=false;
         loadOptions=false;
 
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("PdfView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("PdfView.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
-        this.getStylesheets().add(getClass().getResource("stylesheet.css").toString());
+        this.getStylesheets().add(getClass().getClassLoader().getResource("stylesheet.css").toString());
         try {
             fxmlLoader.load();
         } catch (IOException exception) {

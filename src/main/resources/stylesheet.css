@@ -1,0 +1,59 @@
+#zoomOptionsBox > Button{
+    -fx-background-color: transparent;
+    -fx-padding: 3;
+}
+
+#zoomOptionsBox > Button:hover{
+    -fx-background-color: #eee;
+}
+
+#zoomOptionsBox > Button:pressed{
+    -fx-background-color: #ddd;
+}
+
+#loadOptionsBox > Button{
+    -fx-background-color: transparent;
+    -fx-padding: 3;
+}
+
+#loadOptionsBox > Button:hover{
+    -fx-background-color: #eee;
+}
+
+#loadOptionsBox > Button:pressed{
+    -fx-background-color: #ddd;
+}
+
+#pagination > Button{
+    -fx-background-color: transparent;
+
+}
+
+.pagination > .pagination-control > .control-box {
+    -fx-spacing: 0;
+}
+
+.pagination > .pagination-control > .control-box > .number-button,
+.pagination > .pagination-control > .control-box > .bullet-button,
+.pagination > .pagination-control > .control-box > .left-arrow-button,
+.pagination > .pagination-control > .control-box > .right-arrow-button {
+    -fx-background-insets: 0, 1;
+    -fx-background-color: lightgray, #FAFAFA;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+}
+
+.pagination > .pagination-control > .control-box > .number-button:hover,
+.pagination > .pagination-control > .control-box > .bullet-button:hover,
+.pagination > .pagination-control > .control-box > .left-arrow-button:hover,
+.pagination > .pagination-control > .control-box > .right-arrow-button:hover {
+    -fx-background-insets: 0;
+    -fx-background-color: lightgray;
+}
+
+.pagination > .pagination-control > .control-box > .number-button:selected,
+.pagination > .pagination-control > .control-box > .bullet-button:selected{
+    -fx-background-insets: 0;
+    -fx-background-color: #467fdb;
+    -fx-text-fill: white;
+}

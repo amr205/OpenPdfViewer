@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<fx:root type="javafx.scene.layout.BorderPane" fx:id="borderPane" xmlns:fx="http://javafx.com/fxml" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.40">
+       <top>
+           <ToolBar fx:id="toolBar">
+               <HBox fx:id="loadOptionsBox"><Button fx:id="loadButton" text="Load File" contentDisplay="LEFT"><graphic><MaterialDesignIconView glyphName="FOLDER_OUTLINE" glyphSize="20" fill="grey"/></graphic></Button></HBox>
+               <HBox  fx:id="zoomOptionsBox" alignment="CENTER_RIGHT"  nodeOrientation="LEFT_TO_RIGHT" spacing="8">
+                   <Label text="Zoom Options:"></Label>
+                   <Button fx:id="reduceZoomButton"><graphic><MaterialDesignIconView glyphName="MINUS_CIRCLE_OUTLINE" glyphSize="20" fill="grey"/></graphic></Button>
+                   <Button fx:id="addZoomButton"><graphic><MaterialDesignIconView glyphName="PLUS_CIRCLE_OUTLINE" glyphSize="20" fill="grey"/></graphic></Button>
+                   <Button fx:id="zoomWidthButton"><graphic><FontAwesomeIconView glyphName="ARROWS_H" glyphSize="15" fill="grey"/></graphic></Button>
+                   <Button fx:id="zoomHeightButton"><graphic><FontAwesomeIconView glyphName="ARROWS_V" glyphSize="15" fill="grey"/></graphic></Button>
+               </HBox >
+           </ToolBar>
+       </top>
+      <center>
+          <AnchorPane fx:id="mainPane" >
+              <Pagination fx:id="pagination" AnchorPane.rightAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.topAnchor="0" />
+          </AnchorPane>
+      </center>
+
+</fx:root>

@@ -1,4 +1,7 @@
 # OpenPdfViewer
+
+[![YourActionName Actions Status](https://github.com/amr205/OpenPdfViewer/workflows/Java CI with Maven/badge.svg)]https://github.com/amr205/OpenPdfViewer/actions)
+
 This is a component for javafx that allows you to view PdfDocuments made usind the PdfBox library and FontAwesome
 
 It has differen zoom options like adjust to Height or Width:
@@ -15,7 +18,7 @@ Here is an example with the component embedded:
 
 # How to use it
 
-You could copy the code from the project or just download the library jar from [here](https://mega.nz/#!ta5VQT6T!8dQs318Q8xd0PzYLMqq-n9o_7G3ZIxHSMIRt0QyjCl4) <--- Jar with all dependencies
+You could copy the code from the project or just download the library jar from [here](https://github.com/amr205/OpenPdfViewer/releases/download/1.0.0/OpenPdfViewer.jar) <--- Jar with all dependencies
 
 Then you can use it like a normal control in fxml
 
